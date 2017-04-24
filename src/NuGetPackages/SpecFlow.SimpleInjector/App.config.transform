@@ -5,7 +5,7 @@
   </configSections>
   <specFlow>
     <plugins>
-      <add name="SpecFlow.Autofac" type="Runtime" />
+      <add name="SpecFlow.SimpleInjector" type="Runtime" />
     </plugins>
   </specFlow>
 </configuration>

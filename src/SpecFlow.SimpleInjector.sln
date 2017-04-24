@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetPackages", "NuGetPacka
 		{1EEFF87C-9EC4-41C5-83B1-6ADE8BAA1E12} = {1EEFF87C-9EC4-41C5-83B1-6ADE8BAA1E12}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow.SimpleInjector.SpecFlowPlugin", "SpecFlow.Autofac.SpecFlowPlugin\SpecFlow.SimpleInjector.SpecFlowPlugin.csproj", "{1EEFF87C-9EC4-41C5-83B1-6ADE8BAA1E12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow.SimpleInjector", "SpecFlow.Autofac.SpecFlowPlugin\SpecFlow.SimpleInjector.csproj", "{1EEFF87C-9EC4-41C5-83B1-6ADE8BAA1E12}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5778AABB-6831-47CE-B77E-6F4B8C75809F}"
 	ProjectSection(SolutionItems) = preProject
