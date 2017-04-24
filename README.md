@@ -5,7 +5,7 @@ Currently supports
 * SpecFlow v2.1
 * SimpleInjector v3.0 or above
 
-License: Apache (https://github.com/gasparnagy/SpecFlow.SimpleInjector/blob/master/LICENSE)
+License: Apache (https://github.com/jguc/SpecFlow.SimpleInjector/blob/master/LICENSE)
 
 NuGet: https://www.nuget.org/packages/SpecFlow.SimpleInjector
 
