@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>SpecFlow.SimpleInjector</id>
+    <version>1.0.0</version>
+    <title>SpecFlow SimpleInjector integration plugin</title>
+    <authors>Jakub Guc</authors>
+    <owners>Jakub Guc</owners>
+    <description>SpecFlow plugin that enables to use SimpleInjector for resolving test dependencies.</description>
+    <summary>SpecFlow plugin that enables to use SimpleInjector for resolving test dependencies.</summary>
+    <releaseNotes>See GitHub project page, https://github.com/gasparnagy/SpecFlow.SimpleInjector </releaseNotes>
+    <language>en-US</language>
+    <projectUrl>https://github.com/jguc/SpecFlow.SimpleInjector</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/jguc/SpecFlow.SimpleInjector/master/LICENSE</licenseUrl>
+    <iconUrl>http://go.specflow.org/specflow-nuget-icon</iconUrl>
+    <copyright>Copyright © 2017 Jakub Guc</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>specflow SimpleInjector di dependency injection</tags>
+    <dependencies>
+      <dependency id="SpecFlow" version="2.1.0" />
+      <dependency id="SimpleInjector" version="3.0.0" />
+    </dependencies>
+  </metadata>
+</package>
