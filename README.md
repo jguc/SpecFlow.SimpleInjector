@@ -1,6 +1,7 @@
 ﻿# SpecFlow.SimpleInjector
 SpecFlow plugin for using SimpleInjector as a dependency injection framework for step definitions.
 
+
 Currently supports
 * SpecFlow v2.1
 * SimpleInjector v3.0 or above
@@ -8,6 +9,9 @@ Currently supports
 License: Apache (https://github.com/jguc/SpecFlow.SimpleInjector/blob/master/LICENSE)
 
 NuGet: https://www.nuget.org/packages/SpecFlow.SimpleInjector
+
+[![Build status](https://ci.appveyor.com/api/projects/status/17s8ujeigojldjfn/branch/master?svg=true)](https://ci.appveyor.com/project/jguc/specflow-simpleinjector/branch/master)
+[![NuGet version](https://badge.fury.io/nu/SpecFlow.SimpleInjector.svg)](https://badge.fury.io/nu/SpecFlow.SimpleInjector)
 
 ## Usage
 
