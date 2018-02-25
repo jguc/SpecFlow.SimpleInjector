@@ -3,7 +3,7 @@ SpecFlow plugin for using SimpleInjector as a dependency injection framework for
 
 
 Currently supports
-* SpecFlow v2.1
+* SpecFlow v2.2
 * SimpleInjector v3.0 or above
 
 License: Apache (https://github.com/jguc/SpecFlow.SimpleInjector/blob/master/LICENSE)
@@ -24,10 +24,10 @@ Create a static method somewhere in the SpecFlow project (recommended to put it 
 A typical dependency builder method probably looks like this:
 
     [ScenarioDependencies]
-    public static ContainerBuilder CreateContainerBuilder()
+    public static Container CreateContainer()
     {
       // create container with the runtime dependencies
-      var builder = Dependencies.CreateContainerBuilder();
+      var builder = Dependencies.CreateContainer();
 
       //TODO: add customizations, stubs required for testing
 	  builder.Verify();

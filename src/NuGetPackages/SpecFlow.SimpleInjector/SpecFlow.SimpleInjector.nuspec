@@ -2,7 +2,7 @@
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>SpecFlow.SimpleInjector</id>
-    <version>1.0.0</version>
+    <version>1.0.0-localdev</version>
     <title>SpecFlow SimpleInjector integration plugin</title>
     <authors>Jakub Guc</authors>
     <owners>Jakub Guc</owners>
@@ -17,7 +17,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>specflow SimpleInjector di dependency injection</tags>
     <dependencies>
-      <dependency id="SpecFlow" version="2.1.0" />
+      <dependency id="SpecFlow" version="2.2.0" />
       <dependency id="SimpleInjector" version="3.0.0" />
     </dependencies>
   </metadata>

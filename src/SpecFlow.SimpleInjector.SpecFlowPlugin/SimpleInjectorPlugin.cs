@@ -13,7 +13,7 @@ namespace SpecFlow.SimpleInjector
         {
             runtimePluginEvents.CustomizeGlobalDependencies += (sender, args) =>
             {
-                args.ObjectContainer.RegisterTypeAs<SimpleInjectorBindingInstanceResolver, IBindingInstanceResolver>();
+                args.ObjectContainer.RegisterTypeAs<SimpleInjectorTestObjectResolver, ITestObjectResolver>();
                 args.ObjectContainer.RegisterTypeAs<ContainerBuilderFinder, IContainerBuilderFinder>();
             };
 
