@@ -5,7 +5,7 @@ using TechTalk.SpecFlow.Infrastructure;
 
 namespace SpecFlow.SimpleInjector
 {
-    public class SimpleInjectorBindingInstanceResolver : IBindingInstanceResolver
+    public class SimpleInjectorTestObjectResolver : ITestObjectResolver
     {
         public object ResolveBindingInstance(Type bindingType, IObjectContainer scenarioContainer)
         {
