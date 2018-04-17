@@ -38,8 +38,8 @@
     <Reference Include="SimpleInjector, Version=3.0.0.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
       <HintPath>..\packages\SimpleInjector.3.0.0\lib\net45\SimpleInjector.dll</HintPath>
     </Reference>
-    <Reference Include="SpecFlow.SimpleInjector.SpecFlowPlugin">
-      <HintPath>..\packages\SpecFlow.SimpleInjector\SpecFlow.SimpleInjector.SpecFlowPlugin.dll</HintPath>
+    <Reference Include="SpecFlow.SimpleInjector.SpecFlowPlugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpecFlow.SimpleInjector.1.0.2\lib\net45\SpecFlow.SimpleInjector.SpecFlowPlugin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
