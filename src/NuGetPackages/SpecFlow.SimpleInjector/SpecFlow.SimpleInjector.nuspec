@@ -8,7 +8,7 @@
     <owners>Jakub Guc</owners>
     <description>SpecFlow plugin that enables to use SimpleInjector for resolving test dependencies.</description>
     <summary>SpecFlow plugin that enables to use SimpleInjector for resolving test dependencies.</summary>
-    <releaseNotes>See GitHub project page, https://github.com/gasparnagy/SpecFlow.SimpleInjector </releaseNotes>
+    <releaseNotes>See GitHub project page, https://github.com/jguc/SpecFlow.SimpleInjector</releaseNotes>
     <language>en-US</language>
     <projectUrl>https://github.com/jguc/SpecFlow.SimpleInjector</projectUrl>
     <licenseUrl>https://raw.githubusercontent.com/jguc/SpecFlow.SimpleInjector/master/LICENSE</licenseUrl>
