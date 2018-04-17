@@ -38,3 +38,14 @@ A typical dependency builder method probably looks like this:
 ## Plugin based on 
 
 http://gasparnagy.com/2016/08/specflow-tips-customizing-dependency-injection-with-autofac/
+
+## Release history
+
+#### v1.1.0
+
+* Support for SpecFlow v2.2 ([PR#2](https://github.com/jguc/SpecFlow.SimpleInjector/pull/2) by [davidvesely](https://github.com/davidvesely))
+* Updated test project to reflect version changes (thanks to [dariusz-wozniak](https://github.com/dariusz-wozniak))
+
+#### v1.0.2
+
+* First release supporting SpecFlow v2.1
