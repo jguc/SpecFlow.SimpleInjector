@@ -8,26 +8,26 @@ namespace SpecFlow.SimpleInjector
 {
     public class ContainerBuilderFinder : IContainerBuilderFinder
     {
-        private readonly IBindingRegistry bindingRegistry;
-        private readonly Lazy<Func<Container>> createScenarioContainerBuilder;
+        private readonly IBindingRegistry _bindingRegistry;
+        private readonly Lazy<Func<Container>> _createScenarioContainerBuilder;
 
         public ContainerBuilderFinder(IBindingRegistry bindingRegistry)
         {
-            this.bindingRegistry = bindingRegistry;
-            createScenarioContainerBuilder = new Lazy<Func<Container>>(FindCreateScenarioContainerBuilder, true);
+            this._bindingRegistry = bindingRegistry;
+            _createScenarioContainerBuilder = new Lazy<Func<Container>>(FindCreateScenarioContainerBuilder, true);
         }
 
         public Func<Container> GetCreateScenarioContainerBuilder()
         {
-            var builder = createScenarioContainerBuilder.Value;
+            var builder = _createScenarioContainerBuilder.Value;
             if (builder == null)
-                throw new Exception("Unable to find scenario dependencies! Mark a static method that returns a SimpleInjector.Container with [ScenarioDependencies]!");
+                throw new InvalidOperationException("Unable to find scenario dependencies! Mark a static method that returns a SimpleInjector.Container with [ScenarioDependencies]!");
             return builder;
         }
 
         protected virtual Func<Container> FindCreateScenarioContainerBuilder()
         {
-            var assemblies = bindingRegistry.GetBindingAssemblies();
+            var assemblies = _bindingRegistry.GetBindingAssemblies();
             foreach (var assembly in assemblies)
             {
                 foreach (var type in assembly.GetTypes())
