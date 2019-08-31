@@ -11,14 +11,14 @@
     <releaseNotes>See GitHub project page, https://github.com/jguc/SpecFlow.SimpleInjector</releaseNotes>
     <language>en-US</language>
     <projectUrl>https://github.com/jguc/SpecFlow.SimpleInjector</projectUrl>
-    <licenseUrl>https://raw.githubusercontent.com/jguc/SpecFlow.SimpleInjector/master/LICENSE</licenseUrl>
+    <license type="expression">Apache-2.0</license>
     <iconUrl>http://go.specflow.org/specflow-nuget-icon</iconUrl>
     <copyright>Copyright © 2017 Jakub Guc</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>specflow SimpleInjector di dependency injection</tags>
     <dependencies>
-      <dependency id="SpecFlow" version="2.2.0" />
-      <dependency id="SimpleInjector" version="3.0.0" />
+      <dependency id="SpecFlow" version="3.0.225" />
+      <dependency id="SimpleInjector" version="4.6.2" />
     </dependencies>
   </metadata>
 </package>

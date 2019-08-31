@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SimpleInjector;
-using MyCalculator.Specs.StepDefinitions;
+﻿using SimpleInjector;
 using SpecFlow.SimpleInjector;
-using TechTalk.SpecFlow;
 
 namespace MyCalculator.Specs.Support
 {
@@ -19,7 +12,6 @@ namespace MyCalculator.Specs.Support
             var builder = Dependencies.CreateContainerBuilder();
 
             //TODO: add customizations, stubs required for testing
-            builder.Verify();
 
             return builder;
         }
