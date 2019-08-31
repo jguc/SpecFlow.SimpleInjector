@@ -11,7 +11,7 @@
     <releaseNotes>See GitHub project page, https://github.com/jguc/SpecFlow.SimpleInjector</releaseNotes>
     <language>en-US</language>
     <projectUrl>https://github.com/jguc/SpecFlow.SimpleInjector</projectUrl>
-    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://raw.githubusercontent.com/jguc/SpecFlow.SimpleInjector/master/LICENSE</licenseUrl>
     <iconUrl>http://go.specflow.org/specflow-nuget-icon</iconUrl>
     <copyright>Copyright © 2017 Jakub Guc</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
