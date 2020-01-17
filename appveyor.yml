@@ -8,9 +8,6 @@ branches:
 environment:
   BaseVersion: 1.0.1
   NugetVersion: "1.0.1-ci$(APPVEYOR_BUILD_NUMBER)"
-  
-cache:
-  - src\packages -> src\**\packages.config
 
 assembly_info:
   patch: true
