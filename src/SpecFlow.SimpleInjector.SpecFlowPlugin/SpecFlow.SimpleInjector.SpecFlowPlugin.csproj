@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <RootNamespace>SpecFlow.SimpleInjector</RootNamespace>
-    <TargetFrameworks>net45;net471;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <AssemblyTitle>SpecFlow.SimpleInjector (SpecFlow plugin)</AssemblyTitle>
     <Company>Spec Solutions</Company>
     <Product>SpecFlow.SimpleInjector</Product>
