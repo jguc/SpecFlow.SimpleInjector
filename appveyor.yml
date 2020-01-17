@@ -1,4 +1,5 @@
-version: build{build}
+version: '1.0.{build}'
+image: Visual Studio 2019
 
 branches:
   only:
@@ -25,15 +26,15 @@ nuget:
 configuration: Release
 
 before_build:
-  - cd src
-  - appveyor DownloadFile https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
-  - appveyor DownloadFile https://raw.githubusercontent.com/appveyor/ci/master/scripts/nuget-restore.cmd
-  - nuget-restore
-  - cd ..
-
-build:
-  project: src\SpecFlow.SimpleInjector.sln
-  verbosity: normal
-
+  # Display .NET Core version
+  - cmd: dotnet --version
+  # Display minimal restore text
+  - cmd: dotnet restore ./src/SpecFlow.SimpleInjector.SpecFlowPlugin/SpecFlow.SimpleInjector.SpecFlowPlugin.csproj --verbosity m
+build_script:
+  # output will be in ./src/bin/debug/netcoreapp1.1/publish
+  - cmd: dotnet publish ./src/SpecFlow.SimpleInjector.SpecFlowPlugin/SpecFlow.SimpleInjector.SpecFlowPlugin.csproj
+after_build:
+  # For once the build has completed
 artifacts:
-- path: 'src\NuGetPackages\bin\*.nupkg'
+ - path: '\src\SpecFlow.SimpleInjector.SpecFlowPlugin\bin\Release'
+   name: NuGet
