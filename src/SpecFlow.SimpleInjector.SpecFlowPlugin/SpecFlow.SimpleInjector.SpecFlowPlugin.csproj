@@ -6,7 +6,7 @@
     <Company>Spec Solutions</Company>
     <Product>SpecFlow.SimpleInjector</Product>
     <Copyright>Copyright © 2017 Jakub Guc</Copyright>
-    <Version>1.1.0</Version>
+    <Version>1.2.1</Version>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -14,7 +14,7 @@
     <Authors>Jakub Guc</Authors>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SimpleInjector" Version="4.8.1" />
-    <PackageReference Include="SpecFlow" Version="3.1.74" />
+    <PackageReference Include="SimpleInjector" Version="4.9.0" />
+    <PackageReference Include="SpecFlow" Version="3.1.78" />
   </ItemGroup>
 </Project>

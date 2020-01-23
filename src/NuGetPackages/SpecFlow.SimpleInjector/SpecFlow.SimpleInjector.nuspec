@@ -17,8 +17,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>specflow SimpleInjector di dependency injection</tags>
     <dependencies>
-      <dependency id="SpecFlow" version="3.0.225" />
-      <dependency id="SimpleInjector" version="4.7.1" />
+      <dependency id="SpecFlow" version="3.1.78" />
+      <dependency id="SimpleInjector" version="4.9.0" />
     </dependencies>
   </metadata>
 </package>
