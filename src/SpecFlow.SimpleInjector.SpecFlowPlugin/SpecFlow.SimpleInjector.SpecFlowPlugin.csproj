@@ -3,18 +3,23 @@
     <RootNamespace>SpecFlow.SimpleInjector</RootNamespace>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyTitle>SpecFlow.SimpleInjector (SpecFlow plugin)</AssemblyTitle>
-    <Company>Spec Solutions</Company>
+    <Company></Company>
     <Product>SpecFlow.SimpleInjector</Product>
     <Copyright>Copyright © 2017 Jakub Guc</Copyright>
-    <Version>1.1.0</Version>
+    <Version>2.0.0</Version>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>SpecFlow.SimpleInjector</PackageId>
     <Authors>Jakub Guc</Authors>
+    <Description>SpecFlow plugin for using SimpleInjector as a dependency injection framework for step definitions.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/jguc/SpecFlow.SimpleInjector</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jguc/SpecFlow.SimpleInjector</RepositoryUrl>
+    <PackageTags>specflow SimpleInjector di dependency injection</PackageTags>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SimpleInjector" Version="4.8.1" />
-    <PackageReference Include="SpecFlow" Version="3.1.74" />
+    <PackageReference Include="SimpleInjector" Version="4.9.0" />
+    <PackageReference Include="SpecFlow" Version="3.1.80" />
   </ItemGroup>
 </Project>

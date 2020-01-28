@@ -3,8 +3,8 @@ SpecFlow plugin for using SimpleInjector as a dependency injection framework for
 
 
 Currently supports
-* SpecFlow v3.0.225
-* SimpleInjector v4.6.2 or above
+* SpecFlow v3.1.80
+* SimpleInjector v4.9.0 or above
 
 License: Apache (https://github.com/jguc/SpecFlow.SimpleInjector/blob/master/LICENSE)
 
@@ -39,6 +39,14 @@ A typical dependency builder method probably looks like this:
 http://gasparnagy.com/2016/08/specflow-tips-customizing-dependency-injection-with-autofac/
 
 ## Release history
+
+#### v2.0.0
+
+* Conversion to .NET Standard 2.0 project ([PR#8](https://github.com/jguc/SpecFlow.SimpleInjector/pull/8) by [toadicusrex](https://github.com/toadicusrex))
+* Updated libraries (SpecFlow and SimpleInjector)
+* Changed nuget publish process to .NET Standard
+* Updated example project
+
 
 #### v1.2.0
 
