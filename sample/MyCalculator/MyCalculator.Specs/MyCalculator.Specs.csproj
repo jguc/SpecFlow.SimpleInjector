@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net452</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <Authors>Jakub Guc</Authors>
   </PropertyGroup>
   <ItemGroup>
@@ -12,7 +12,6 @@
     <PackageReference Include="SpecFlow.SimpleInjector" Version="2.0.0" />
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.1.80" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\MyCalculator\MyCalculator.csproj" />
   </ItemGroup>

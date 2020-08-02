@@ -3,7 +3,6 @@
     <TargetFramework>net48</TargetFramework>
     <Authors>Jakub Guc</Authors>
     <OutputType>Exe</OutputType>
-
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="SimpleInjector" Version="4.9.0" />
@@ -11,5 +10,4 @@
   <ItemGroup>
     <ProjectReference Include="..\MyCalculator\MyCalculator.csproj" />
   </ItemGroup>
-  
 </Project>
