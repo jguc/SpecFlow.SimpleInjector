@@ -2,10 +2,8 @@
   <PropertyGroup>
     <TargetFramework>net452</TargetFramework>
     <Authors>Jakub Guc</Authors>
-
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="SimpleInjector" Version="4.9.0" />
-
   </ItemGroup>
 </Project>
