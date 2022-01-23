@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ master ]
 
+env:
+  PROJECT_PATH: 'sample/MyCalculator/MyCalculator.sln'
+  TESTS_PATH: 'sample/MyCalculator/MyCalculator.Specs/MyCalculator.Specs.csproj'
+
 jobs:
   build:
 
@@ -18,8 +22,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ${{ env.PROJECT_PATH }}
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build ${{ env.PROJECT_PATH }} --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test ${{ env.TESTS_PATH }} --no-build --verbosity normal
