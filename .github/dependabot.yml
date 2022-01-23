@@ -1,0 +1,13 @@
+# Dependabot configuration file
+# Automatic dependency updates
+
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  # Keep the NuGet packages up to date.
+  - package-ecosystem: "nuget"
+    directory: "/"
+    schedule:
+      # Every month
+      interval: "monthly"
