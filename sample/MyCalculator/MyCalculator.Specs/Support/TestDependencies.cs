@@ -1,4 +1,5 @@
-﻿using SimpleInjector;
+﻿using MyCalculator.Specs.StepDefinitions;
+using SimpleInjector;
 using SpecFlow.SimpleInjector;
 
 namespace MyCalculator.Specs.Support
@@ -12,6 +13,7 @@ namespace MyCalculator.Specs.Support
             var builder = Dependencies.CreateContainerBuilder();
 
             //TODO: add customizations, stubs required for testing
+            builder.Register<CalculatorStepDefinitions>(Lifestyle.Singleton);
 
             return builder;
         }
