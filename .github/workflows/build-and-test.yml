@@ -1,4 +1,4 @@
-name: Buld and run unit tests
+name: Unit tests
 
 on:
   push:

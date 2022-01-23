@@ -2,15 +2,20 @@
 SpecFlow plugin for using SimpleInjector as a dependency injection framework for step definitions.
 
 
-Currently supports
-* SpecFlow v3.1.80
-* SimpleInjector v4.9.0 or above
+Dependabot checks for new versions of 
+* SpecFlow
+* SimpleInjector
+libraries every month and creates pull requests with updates.
+
+After merge and tagging in GitHub automated action will pack and published update nuget library with updated version.
 
 License: Apache (https://github.com/jguc/SpecFlow.SimpleInjector/blob/master/LICENSE)
 
 NuGet: https://www.nuget.org/packages/SpecFlow.SimpleInjector
 
 [![Build status](https://ci.appveyor.com/api/projects/status/17s8ujeigojldjfn/branch/master?svg=true)](https://ci.appveyor.com/project/jguc/specflow-simpleinjector/branch/master)
+[![Unit tests](https://github.com/jguc/SpecFlow.SimpleInjector/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/jguc/SpecFlow.SimpleInjector/actions/workflows/build-and-test.yml/badge.svg)
+[![GitHub version](https://badge.fury.io/gh/jguc%2FSpecFlow.SimpleInjector.svg)](https://badge.fury.io/gh/jguc%2FSpecFlow.SimpleInjector)
 [![NuGet version](https://badge.fury.io/nu/SpecFlow.SimpleInjector.svg)](https://badge.fury.io/nu/SpecFlow.SimpleInjector)
 
 ## Usage
@@ -39,6 +44,13 @@ A typical dependency builder method probably looks like this:
 http://gasparnagy.com/2016/08/specflow-tips-customizing-dependency-injection-with-autofac/
 
 ## Release history
+
+#### v2.0.1
+
+* Dependabot added to track SpecFlow and SimpleInjector version changes
+* NuGet package deployment automated after new tag is published
+* Sample project with unit test update
+* Unit tests automated with GitHub actions
 
 #### v2.0.0
 
