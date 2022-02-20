@@ -45,7 +45,7 @@ http://gasparnagy.com/2016/08/specflow-tips-customizing-dependency-injection-wit
 
 ## Release history
 
-#### v2.0.1
+#### v2.0.1 - v2.X.X
 
 * Dependabot added to track SpecFlow and SimpleInjector version changes
 * NuGet package deployment automated after new tag is published
