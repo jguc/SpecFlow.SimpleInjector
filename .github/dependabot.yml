@@ -11,5 +11,5 @@ updates:
     reviewers:
       - "@jguc"
     schedule:
-      # Once a week
-      interval: "weekly"
+      # Once a day
+      interval: "daily"
