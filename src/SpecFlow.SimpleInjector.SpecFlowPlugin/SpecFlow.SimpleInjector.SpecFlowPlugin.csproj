@@ -19,7 +19,7 @@
     <PackageTags>specflow SimpleInjector di dependency injection</PackageTags>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SimpleInjector" Version="5.4.0" />
+    <PackageReference Include="SimpleInjector" Version="5.4.1" />
     <PackageReference Include="SpecFlow" Version="3.9.74" />
   </ItemGroup>
 </Project>
